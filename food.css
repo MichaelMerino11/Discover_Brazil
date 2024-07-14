@@ -1,0 +1,31 @@
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
+
+.card-square {
+    height: 100%;
+}
+
+.card-square .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-square .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

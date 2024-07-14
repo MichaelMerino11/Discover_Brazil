@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Brazil</title>
+    <link rel="stylesheet" href="form.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Discover Brazil</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="culture.html">Cultura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Comida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-5">
+      <h1>Bienvenido a Discover Brasil</h1>
+      <p>
+        Explore la vibrante cultura, la deliciosa comida y la fascinante
+        historia de Brasil.
+      </p>
+
+      <!-- Questionnaire -->
+      <h2>Pon a prueba tus conocimientos</h2>
+      <form id="quiz-form">
+        <div class="form-group">
+          <label for="username">Nombre:</label>
+          <input type="text" class="form-control" id="username" required />
+        </div>
+        <div class="form-group">
+          <label for="q1">1. ¿Cuál es el idioma oficial de Brasil?</label>
+          <input type="text" class="form-control" id="q1" required />
+        </div>
+        <div class="form-group">
+          <label for="q2">2. ¿Qué famoso evento brasileño es conocido por su música, baile y disfraces coloridos?</label>
+          <input type="text" class="form-control" id="q2" required />
+        </div>
+        <div class="form-group">
+          <label for="q3">3. ¿Cuál es la religión predominante en Brasil?</label>
+          <input type="text" class="form-control" id="q3" required />
+        </div>
+        <div class="form-group">
+          <label for="q4">4. ¿Cual es el plato tíco más famoso de Brasil?</label>
+          <input type="text" class="form-control" id="q4" required />
+        </div>
+        <div class="form-group">
+          <label for="q5"
+            >5. ¿Cuál es el deporte más popular en Brasil, con el país ganando múltiples veces la Copa del Mundo?</label
+          >
+          <input type="text" class="form-control" id="q5" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>Autores: Michael Merino</p>
+        <p>Contacto: contact@discoverbrazil.com</p>
+        <p>&copy; 2024 Discover Brazil. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

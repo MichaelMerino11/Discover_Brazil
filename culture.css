@@ -1,0 +1,46 @@
+main {
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef;
+  text-align: justify;
+}
+
+.container h2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h2, h5 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.row.mb-4.align-items-center {
+  margin-bottom: 2rem;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-link.active {
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

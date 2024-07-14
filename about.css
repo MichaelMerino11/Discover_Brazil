@@ -1,0 +1,31 @@
+body {
+    background-color: #e9ecef;
+}
+
+main {
+    padding-top: 60px;
+}
+
+img.rounded-circle {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
